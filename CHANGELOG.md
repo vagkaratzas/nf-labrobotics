@@ -1,5 +1,16 @@
 # Changelog
 
+## [Unreleased]
+
+### Dependencies
+
+Development and build tools only; nothing changes for users.
+
+| Tool               | Previous version | New version |
+| ------------------ | ---------------- | ----------- |
+| pytest             | 9.1.1            | 9.2.0       |
+| uv_build (adapter) | 0.13.5           | 0.13.6      |
+
 ## [0.1.0] - 2026-10-30
 
 First release: a prototype, built against PyLabRobot's simulated machines. Needs Nextflow 26.10.0 or later and Java 17.
