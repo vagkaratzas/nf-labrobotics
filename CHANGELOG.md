@@ -4,12 +4,14 @@
 
 ### Dependencies
 
-Development and build tools only; nothing changes for users.
+Development and build tools, plus the adapter's minimum FastAPI (a patch release).
 
 | Tool               | Previous version | New version |
 | ------------------ | ---------------- | ----------- |
+| FastAPI (adapter)  | 0.162.0          | 0.162.2     |
+| Gradle wrapper     | 9.8.2            | 9.9.0       |
 | pytest             | 9.1.1            | 9.2.0       |
-| uv_build (adapter) | 0.13.5           | 0.13.6      |
+| uv_build (adapter) | 0.13.5           | 0.13.7      |
 
 ## [0.1.0] - 2026-10-30
 
