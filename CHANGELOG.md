@@ -4,15 +4,17 @@
 
 ### Dependencies
 
-Development and build tools, the adapter's minimum FastAPI (a minor release), and a security fix in OpenTelemetry API, which FastAPI pulls in ([GHSA-mf5v-w3w3-f6cg](https://github.com/advisories/GHSA-mf5v-w3w3-f6cg); reached only when OpenTelemetry tracing is configured, which the adapter and dashboard do not do).
+Development and build tools, the CI's uv setup action, the adapter's minimum FastAPI (a minor release) and httpx2 (a patch release), and a security fix in OpenTelemetry API, which FastAPI pulls in ([GHSA-mf5v-w3w3-f6cg](https://github.com/advisories/GHSA-mf5v-w3w3-f6cg); reached only when OpenTelemetry tracing is configured, which the adapter and dashboard do not do).
 
-| Tool               | Previous version | New version |
-| ------------------ | ---------------- | ----------- |
-| FastAPI (adapter)  | 0.162.0          | 0.163.1     |
-| Gradle wrapper     | 9.8.2            | 9.9.1       |
-| OpenTelemetry API  | 1.45.1           | 1.45.2      |
-| pytest             | 9.1.1            | 9.2.0       |
-| uv_build (adapter) | 0.13.5           | 0.13.8      |
+| Tool                    | Previous version | New version |
+| ----------------------- | ---------------- | ----------- |
+| astral-sh/setup-uv (CI) | 10.3.3           | 10.4.0      |
+| FastAPI (adapter)       | 0.162.0          | 0.165.0     |
+| Gradle wrapper          | 9.8.2            | 9.9.2       |
+| httpx2 (adapter)        | 2.16.0           | 2.16.2      |
+| OpenTelemetry API       | 1.45.1           | 1.45.2      |
+| pytest                  | 9.1.1            | 9.2.0       |
+| uv_build (adapter)      | 0.13.5           | 0.13.9      |
 
 ## [0.1.0] - 2026-10-30
 
